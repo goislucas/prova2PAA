@@ -1,0 +1,24 @@
+GRUPO: 
+
+ANDERSON TAVARES BARRETO DE ARAUJO - 202200025410
+GABRYEL BARRETO ARAUJO - 202200025500
+JOSE LUCAS RODRIGUES GOIS - 202200025617
+PEDRO BRUNO TELES E SOUZA - 202200025724
+
+Github: https://github.com/goislucas/prova2PAA
+
+Questão 2:
+
+a) c^(2p+bi) é equivalente a (c^p)^2 * c^bi.
+
+b) O algoritmo pode ser representado por meio do pseudocódigo abaixo:
+
+func expBin(c, BN)
+    cp = 1
+    para (i = tamanho(BN) - 1, i >= 0, i--) 
+        cp = cp * cp 
+        se BN[i] == 1 
+            cp = cp * c
+    retorne cp
+
+c) O(log N), pois as interações no laço é proporcional a log2 N, que é aproximado ao número de bits de N.

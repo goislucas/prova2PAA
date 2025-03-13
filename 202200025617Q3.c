@@ -115,6 +115,18 @@ int main() {
         return 1;
     }
     
+<<<<<<< HEAD
+=======
+    printf("\nPONTOS\n");
+    for (int i = 0; i < N; i++) {
+        printf("(%.2f, %.2f)", P[i][0], P[i][1]);
+        if (i + 1 < N) {
+            printf(", ");
+        }
+    }
+    printf("\n");
+
+>>>>>>> 6e7298d (Commit Final)
     float* ponto = pol(P, N);
     
     printf("\nPONTO MEDIANO\n(%.2f, %.2f)\n", ponto[0], ponto[1]);

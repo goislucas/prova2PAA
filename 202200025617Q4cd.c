@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 
 GRUPO: 
@@ -11,6 +12,8 @@ Github: https://github.com/goislucas/prova2PAA
 
 */
 
+=======
+>>>>>>> 6e7298d (Commit Final)
 #include <stdio.h>
 #include <math.h>
 
@@ -21,6 +24,24 @@ void distancia_entre_dois_pontos(float ponto1[] , float ponto2[]){
     distancia = sqrt(pow((ponto1[0] - ponto2[0]),2) + pow((ponto1[1] - ponto2[1]),2));
 }
 
+<<<<<<< HEAD
+=======
+void media_dos_pontos(float pontos[][2] , int quant){
+
+    ponto_medio[0] = 0;
+    ponto_medio[1] = 0;
+
+    for(int i = 0 ; i < quant ; i++){
+        ponto_medio[0] = ponto_medio[0] + pontos[i][0];
+        ponto_medio[1] = ponto_medio[1] + pontos[i][1];
+    }
+
+    ponto_medio[0] = ponto_medio[0]/quant;
+    ponto_medio[1] = ponto_medio[1]/quant;
+
+}
+
+>>>>>>> 6e7298d (Commit Final)
 int inCirc(float pontos[][2] , float raio , int quant){
     media_dos_pontos(pontos,quant);
 
@@ -43,6 +64,7 @@ int inCirc(float pontos[][2] , float raio , int quant){
     return 1;
 }
 
+<<<<<<< HEAD
 
 void media_dos_pontos(float pontos[][2] , int quant){
 
@@ -59,6 +81,8 @@ void media_dos_pontos(float pontos[][2] , int quant){
 
 }
 
+=======
+>>>>>>> 6e7298d (Commit Final)
 void main(){
     int quant = 4;
     float raio = 150;
